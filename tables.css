@@ -1,0 +1,111 @@
+/* 
+	Copyright (C) 2013  <Palmani. K>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>
+	*/
+.CSSTableGenerator {
+			margin:0px;padding:0px;
+			width:100%%;
+			border:1px solid #fcf9f9;
+			
+			-moz-border-radius-bottomleft:10px;
+			-webkit-border-bottom-left-radius:10px;
+			border-bottom-left-radius:10px;
+			
+			-moz-border-radius-bottomright:10px;
+			-webkit-border-bottom-right-radius:10px;
+			border-bottom-right-radius:10px;
+			
+			-moz-border-radius-topright:10px;
+			-webkit-border-top-right-radius:10px;
+			border-top-right-radius:10px;
+			
+			-moz-border-radius-topleft:10px;
+			-webkit-border-top-left-radius:10px;
+			border-top-left-radius:10px;
+			
+			empty-cells:hide;
+		}.CSSTableGenerator table{
+			width:100%;
+			/*height:50%;*/
+			margin:0px;padding:0px;
+		}.CSSTableGenerator tr:last-child td:last-child {
+			-moz-border-radius-bottomright:10px;
+			-webkit-border-bottom-right-radius:10px;
+			border-bottom-right-radius:10px;
+		}
+		.CSSTableGenerator table tr:first-child td:nth-child(2){
+			-moz-border-radius-topleft:10px;
+			-webkit-border-top-left-radius:10px;
+			border-top-left-radius:10px;
+		}
+		
+		.CSSTableGenerator table tr:nth-child(2) td:first-child{
+			-moz-border-radius-topleft:10px;
+			-webkit-border-top-left-radius:10px;
+			border-top-left-radius:10px;
+		}
+		.CSSTableGenerator table tr:first-child td:last-child {
+			-moz-border-radius-topright:10px;
+			-webkit-border-top-right-radius:10px;
+			border-top-right-radius:10px;
+		}.CSSTableGenerator tr:last-child td:first-child{
+			-moz-border-radius-bottomleft:10px;
+			-webkit-border-bottom-left-radius:10px;
+			border-bottom-left-radius:10px;
+		}.CSSTableGenerator tr:hover td{
+			
+		}
+		.CSSTableGenerator tr:nth-child(odd){ background-color:#f5efff; }
+		.CSSTableGenerator tr:nth-child(even)    { background-color:#e9dcfe; }.CSSTableGenerator td{
+			vertical-align:middle;
+			
+			
+			border:1px solid #fcf9f9;
+			border-width:0px 1px 1px 0px;
+			text-align:center;
+			padding:7px;
+			font-size:12px;
+			font-family:Arial;
+			font-weight:normal;
+			color:#000000;
+		}
+		
+		.CSSTableGenerator tr:first-child td,tr td:first-child{
+			border-top:4px solid #ed00ed;
+			
+			background:-o-linear-gradient(bottom, #6105ec 5%, #ff49ff 100%);	
+			background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4c04ba), color-stop(1, #6e11fa) );
+			background:-moz-linear-gradient( center top, #6105ec 5%, #ff49ff 100% );
+			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#6105ec", endColorstr="#ff49ff");	
+			background: -o-linear-gradient(top,#6105ec,ff49ff);
+
+			background-color:#5f05ea;
+			text-align:center;
+			/*border-width:0px 0px 1px 1px;*/
+			font-size:14px;
+			font-family:Arial;
+			font-weight:bold;
+			color:#ffffff;
+		}
+		.CSSTableGenerator tr:first-child:hover td{
+			
+			background:-o-linear-gradient(bottom, #ed00ed 5%, #ff49ff 100%);	
+			background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #6e11fa), color-stop(1, #4c04ba) );
+			background:-moz-linear-gradient( center top, #ed00ed 5%, #ff49ff 100% );
+			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff49ff", endColorstr="#6105ec");	background: -o-linear-gradient(top,#ed00ed,ff49ff);
+
+			background-color:#ed00ed;
+		}
+		
